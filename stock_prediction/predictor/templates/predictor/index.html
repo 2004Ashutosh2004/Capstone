@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Homepage</title>
+    <link rel="stylesheet" href="static/css/indsty.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Stocky</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="auth-links">
+            <a href="{% url 'signup' %}" class="signup">Sign Up</a>
+            <a href="{% url 'login' %}" class="login">Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Stocky</h1>
+            <p>Stay ahead in the market with Stocky, your go-to platform for accurate Nifty 50 close price predictions! Powered by advanced AI & real-time data analysis, Stocky helps traders, investors, and market enthusiasts make informed decisions with confidence.
+                <br>
+                🔹 AI-Driven Price Forecasts 📊
+                <br>
+                🔹 Real-Time Market Insights ⏳
+                <br>
+                🔹 Smart & Data-Backed Predictions 💡
+                <br>
+                Don’t just trade—trade smart with Stocky! Start predicting today and gain the edge you need in the stock market. 🚀💰</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

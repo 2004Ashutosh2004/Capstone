@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit Button */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Predicted Price Output */
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745;
+}
+
+.title {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0px; /* Adjust this value to move it higher or lower */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+/* Apply Background Image */
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content Styling */
+.content {
+    position: relative;
+    color: rgb(75, 16, 16);
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
